@@ -79,7 +79,7 @@
 			<key>comment</key>
 			<string>Control keywords</string>
 			<key>match</key>
-			<string>\b(export|import|end if|end while|if|else|then|call|while|let|sfloat|float|memcpy|memcmp)\b</string>
+			<string>\b(export|import|end if|end while|if|else|then|call|while|let|return|sfloat|float|memcpy|memcmp)\b</string>
 			<key>name</key>
 			<string>keyword.control.bgscript</string>
 		</dict>
