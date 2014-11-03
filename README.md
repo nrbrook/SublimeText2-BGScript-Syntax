@@ -15,6 +15,10 @@ Download and extract to Sublime Text 2 Packages folder
   * Windows: %APPDATA%\Sublime Text 2\Packages
 4. Rename folder to BGScript.
 
+Or, simply run:
+
+    cd ~ && git clone git@github.com:nrbrook/SublimeText2-BGScript-Syntax.git "Library/Application Support/Sublime Text 2/Packages/BGScript"
+
 ## BGScript API Version
 
 The syntax highlighting is up to date for version 1.2.2 of the BGScript API

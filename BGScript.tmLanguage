@@ -79,7 +79,7 @@
 			<key>comment</key>
 			<string>Control keywords</string>
 			<key>match</key>
-			<string>\b(end if|end while|if|else|then|call|while|let|sfloat|float|memcpy|memcmp)\b</string>
+			<string>\b(export|import|end if|end while|if|else|then|call|while|let|sfloat|float|memcpy|memcmp)\b</string>
 			<key>name</key>
 			<string>keyword.control.bgscript</string>
 		</dict>
@@ -87,7 +87,7 @@
 			<key>comment</key>
 			<string>System events</string>
 			<key>match</key>
-			<string>\b(system_boot|system_debug|system_endpoint_watermark_rx|system_endpoint_watermark_tx|system_endpoint_rx|system_script_failure)\b</string>
+			<string>\b(system_boot|system_debug|system_endpoint_watermark_rx|system_endpoint_watermark_tx|system_script_failure)\b</string>
 			<key>name</key>
 			<string>support.variable.bgscript</string>
 		</dict>
@@ -103,7 +103,7 @@
 			<key>comment</key>
 			<string>System commands</string>
 			<key>match</key>
-			<string>\b(system_reset|system_hello|system_address_get|system_reg_write|system_reg_read|system_get_counters|system_get_connections|system_read_memory|system_get_info|system_endpoint_tx|system_whitelist_append|system_whitelist_remove|system_whitelist_clear|system_endpoint_set_watermarks)\b</string>
+			<string>\b(system_reset|system_hello|system_address_get|system_reg_write|system_reg_read|system_get_counters|system_get_connections|system_read_memory|system_get_info|system_endpoint_tx|system_endpoint_rx|system_whitelist_append|system_whitelist_remove|system_whitelist_clear|system_endpoint_set_watermarks)\b</string>
 			<key>name</key>
 			<string>support.function.bgscript</string>
 		</dict>
